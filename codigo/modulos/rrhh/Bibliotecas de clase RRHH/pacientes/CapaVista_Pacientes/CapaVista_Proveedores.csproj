@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6A65C4F-44DA-4546-A6B5-223D55D2FE07}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CapaVista_Pacientes</RootNamespace>
+    <AssemblyName>CapaVista_Pacientes</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="CapaVista_Navegador">
+      <HintPath>..\..\..\componentes\navegador\Navegador\CapaVista_Navegador\bin\Debug\CapaVista_Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmProveedoresNavegador.resx">
+      <DependentUpon>FrmProveedoresNavegador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportes\frmReportePacienteNavegador.resx">
+      <DependentUpon>frmReportePacienteNavegador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RpPaciente.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmProveedoresNavegador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProveedoresNavegador.Designer.cs">
+      <DependentUpon>FrmProveedoresNavegador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportes\frmReportePacienteNavegador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportes\frmReportePacienteNavegador.Designer.cs">
+      <DependentUpon>frmReportePacienteNavegador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaControlador_Pacientes\CapaControlador_Proveedores.csproj">
+      <Project>{377E23D9-DA98-47FA-9D35-C152A8F35DF9}</Project>
+      <Name>CapaControlador_Proveedores</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\CapaControlador_Pacientes.Modelos_de_Controladores.ClsModeloPaciente.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.Ayudas.ClsValidacionDatos.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsCrudAcciones.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsCrudCoordinador.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsCrudFormulario.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsCrudGrid.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsCrudSeguridad.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsNavegadorAcciones.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsNavegadorAyuda.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsNavegadorBitacora.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsNavegadorPermisos.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsNavegadorSesion.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsSelectorLlave.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.ClsTipoColumna.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.formularios.ClsCrudEventos.datasource" />
+    <None Include="Properties\DataSources\CapaVista_Navegador.Navegador.datasource" />
+    <None Include="Properties\DataSources\SqlServerTypes.Utilities.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
