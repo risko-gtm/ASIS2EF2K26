@@ -46,6 +46,7 @@
             this.ClientSize = new System.Drawing.Size(1525, 912);
             this.Controls.Add(this.LogisticaNavTipoTransporte);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "FrmMantenimientoPaciente";
             this.Text = "5038-Paciente";
             this.ResumeLayout(false);
