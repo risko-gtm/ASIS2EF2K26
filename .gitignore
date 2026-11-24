@@ -424,3 +424,6 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# DLL de los componentes (se copian con compilar_ASIS2EF2K26.bat)
+dll/
