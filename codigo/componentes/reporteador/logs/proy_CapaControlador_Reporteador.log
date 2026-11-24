@@ -1,0 +1,4 @@
+
+  Determinando los proyectos que se van a restaurar...
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(178,5): warning NU1900: Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json. [C:\proyectoasis22k26\codigo\componentes\reporteador\Reporteador\CapaControlador_Reporteador\CapaControlador_Reporteador.csproj]
+  CapaControlador_Reporteador -> C:\proyectoasis22k26\codigo\componentes\reporteador\Reporteador\CapaControlador_Reporteador\bin\Debug\CapaControlador_Reporteador.dll

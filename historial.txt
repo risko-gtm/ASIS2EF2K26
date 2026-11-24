@@ -1,0 +1,24 @@
+commit 258312eae4143448d03fd608ddcf93de9f8d8643
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Tue Nov 24 10:23:27 2026 -0600
+
+    Dejar de versionar logs de compilación
+
+commit 72b9398dd455be3d2067cf0558935eaae9242ea6
+Merge: d6ebc50 0424d63
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Tue Nov 24 10:12:54 2026 -0600
+
+    Merge con repo remoto, se conserva README y .gitignore de GitHub
+
+commit d6ebc502f97a3da5dce925cb7a5746b5726f63c7
+Author: IsabelMelendezz <lmelendezp@miumg.edu.gt>
+Date:   Tue Nov 24 10:07:22 2026 -0600
+
+    Ignorar archivos de compilación y Visual Studio
+
+commit 0424d638582ca0343e461d9fe9fb1cb4d5098a0f
+Author: risko-gtm <71298281+risko-gtm@users.noreply.github.com>
+Date:   Mon Nov 23 19:34:21 2026 -0600
+
+    Initial commit
