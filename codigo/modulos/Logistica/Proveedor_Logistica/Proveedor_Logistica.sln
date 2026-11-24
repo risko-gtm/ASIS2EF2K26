@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37516.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaVista_Proveedor_Logistica", "CapaVista_Proveedor_Logistica\CapaVista_Proveedor_Logistica.csproj", "{CC2DE1DE-1539-4CEA-8649-D2B0CD46CE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaControlador_Proveedor_Logistica", "CapaControlador_Proveedor_Logistica\CapaControlador_Proveedor_Logistica.csproj", "{0F7F1685-742B-4240-AE95-ED854BEFC9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaModelo_Proveedor_Logistica", "CapaModelo_Proveedor_Logistica\CapaModelo_Proveedor_Logistica.csproj", "{3BD72850-1F1F-449C-A675-CD8486AC4232}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC2DE1DE-1539-4CEA-8649-D2B0CD46CE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2DE1DE-1539-4CEA-8649-D2B0CD46CE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2DE1DE-1539-4CEA-8649-D2B0CD46CE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2DE1DE-1539-4CEA-8649-D2B0CD46CE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7F1685-742B-4240-AE95-ED854BEFC9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7F1685-742B-4240-AE95-ED854BEFC9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7F1685-742B-4240-AE95-ED854BEFC9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7F1685-742B-4240-AE95-ED854BEFC9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD72850-1F1F-449C-A675-CD8486AC4232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD72850-1F1F-449C-A675-CD8486AC4232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD72850-1F1F-449C-A675-CD8486AC4232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD72850-1F1F-449C-A675-CD8486AC4232}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC043D7F-F691-485E-9822-4A3E30BF0A6D}
+	EndGlobalSection
+EndGlobal
