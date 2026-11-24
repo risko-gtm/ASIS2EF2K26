@@ -1,0 +1,825 @@
+﻿namespace CapaVista_Nomina.Formularios
+{
+    partial class FrmPercepcionesDeducciones
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPercepcionesDeducciones));
+            this.RrhhPnlDatosInfoConcep = new System.Windows.Forms.Panel();
+            this.RrhhCboEfecto = new System.Windows.Forms.ComboBox();
+            this.RrhhCboPeriodo = new System.Windows.Forms.ComboBox();
+            this.RrhhLblEfecto = new System.Windows.Forms.Label();
+            this.RrhhCboTipoCalculo = new System.Windows.Forms.ComboBox();
+            this.RrhhLblPeriodo = new System.Windows.Forms.Label();
+            this.RrhhTxtNombreConcepto = new System.Windows.Forms.TextBox();
+            this.RrhhLblNombreConcepto = new System.Windows.Forms.Label();
+            this.RrhhLblTipoCalculo = new System.Windows.Forms.Label();
+            this.RrhhPnlInfoConfiCalculo = new System.Windows.Forms.Panel();
+            this.RrhhCboActivo = new System.Windows.Forms.CheckBox();
+            this.RrhhLblActivo = new System.Windows.Forms.Label();
+            this.RrhhTxtValor = new System.Windows.Forms.TextBox();
+            this.RrhhLblAplicacion = new System.Windows.Forms.Label();
+            this.RrhhClbAplicacion = new System.Windows.Forms.CheckedListBox();
+            this.RrhhLblValor = new System.Windows.Forms.Label();
+            this.RrhhPnlInfoTablaNomina = new System.Windows.Forms.Panel();
+            this.RrhhLblAsignacionExcepcion = new System.Windows.Forms.Label();
+            this.RrhhLblAccedeCalculoNomina = new System.Windows.Forms.Label();
+            this.RrhhBtnRangos = new System.Windows.Forms.Button();
+            this.RrhhBtnAsignacionConceptos = new System.Windows.Forms.Button();
+            this.RrhhDgvListaConceptos = new System.Windows.Forms.DataGridView();
+            this.RrhhLblConsultaGeneral = new System.Windows.Forms.Label();
+            this.RrhhTxtBuscar = new System.Windows.Forms.TextBox();
+            this.RrhhDedBtnAyuda = new System.Windows.Forms.Button();
+            this.RrhhBtnConsultar = new System.Windows.Forms.Button();
+            this.RrhhPnlConceptoRegistrados = new System.Windows.Forms.Panel();
+            this.RrhhLblConceptoRegistrado = new System.Windows.Forms.Label();
+            this.RrhhPbIconoConsultas = new System.Windows.Forms.PictureBox();
+            this.RrhhPnlTablaNominas = new System.Windows.Forms.Panel();
+            this.RrhhPbIconoTablas = new System.Windows.Forms.PictureBox();
+            this.RrhhLblTablasNomina = new System.Windows.Forms.Label();
+            this.RrhhPnlConfiguracionCalculo = new System.Windows.Forms.Panel();
+            this.RrhhPbIconoCalculo = new System.Windows.Forms.PictureBox();
+            this.RrhhLblConfiguracionCalculo = new System.Windows.Forms.Label();
+            this.RrhhPnlConcepto = new System.Windows.Forms.Panel();
+            this.RrhhPbIconInforme = new System.Windows.Forms.PictureBox();
+            this.RrhhLblInformacionConcepto = new System.Windows.Forms.Label();
+            this.RrhhDedBtnSalir = new System.Windows.Forms.Button();
+            this.RrhhDedBtnRefrescar = new System.Windows.Forms.Button();
+            this.RrhhDedBtnFin = new System.Windows.Forms.Button();
+            this.RrhhDedBtnSiguiente = new System.Windows.Forms.Button();
+            this.RrhhDedBtnAnterior = new System.Windows.Forms.Button();
+            this.RrhhDedBtnInicio = new System.Windows.Forms.Button();
+            this.RrhhDedBtnImprimir = new System.Windows.Forms.Button();
+            this.RrhhDedBtnEliminar = new System.Windows.Forms.Button();
+            this.RrhhDedBtnModificar = new System.Windows.Forms.Button();
+            this.RrhhDedBtnGuardar = new System.Windows.Forms.Button();
+            this.RrhhPnlPercepcionDeducciones = new System.Windows.Forms.Panel();
+            this.RrhhPbDonButti = new System.Windows.Forms.PictureBox();
+            this.RrhhLblSubtituloGestion = new System.Windows.Forms.Label();
+            this.RrhhLblPercepDeducciones = new System.Windows.Forms.Label();
+            this.RrhhPbIconoPerDed = new System.Windows.Forms.PictureBox();
+            this.RrhhPnlDatosInfoConcep.SuspendLayout();
+            this.RrhhPnlInfoConfiCalculo.SuspendLayout();
+            this.RrhhPnlInfoTablaNomina.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhDgvListaConceptos)).BeginInit();
+            this.RrhhPnlConceptoRegistrados.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconoConsultas)).BeginInit();
+            this.RrhhPnlTablaNominas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconoTablas)).BeginInit();
+            this.RrhhPnlConfiguracionCalculo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconoCalculo)).BeginInit();
+            this.RrhhPnlConcepto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconInforme)).BeginInit();
+            this.RrhhPnlPercepcionDeducciones.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbDonButti)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconoPerDed)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // RrhhPnlDatosInfoConcep
+            // 
+            this.RrhhPnlDatosInfoConcep.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.RrhhPnlDatosInfoConcep.Controls.Add(this.RrhhCboEfecto);
+            this.RrhhPnlDatosInfoConcep.Controls.Add(this.RrhhCboPeriodo);
+            this.RrhhPnlDatosInfoConcep.Controls.Add(this.RrhhLblEfecto);
+            this.RrhhPnlDatosInfoConcep.Controls.Add(this.RrhhCboTipoCalculo);
+            this.RrhhPnlDatosInfoConcep.Controls.Add(this.RrhhLblPeriodo);
+            this.RrhhPnlDatosInfoConcep.Controls.Add(this.RrhhTxtNombreConcepto);
+            this.RrhhPnlDatosInfoConcep.Controls.Add(this.RrhhLblNombreConcepto);
+            this.RrhhPnlDatosInfoConcep.Controls.Add(this.RrhhLblTipoCalculo);
+            this.RrhhPnlDatosInfoConcep.Location = new System.Drawing.Point(12, 295);
+            this.RrhhPnlDatosInfoConcep.Name = "RrhhPnlDatosInfoConcep";
+            this.RrhhPnlDatosInfoConcep.Size = new System.Drawing.Size(500, 283);
+            this.RrhhPnlDatosInfoConcep.TabIndex = 11;
+            // 
+            // RrhhCboEfecto
+            // 
+            this.RrhhCboEfecto.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.RrhhCboEfecto.FormattingEnabled = true;
+            this.RrhhCboEfecto.Location = new System.Drawing.Point(199, 189);
+            this.RrhhCboEfecto.Name = "RrhhCboEfecto";
+            this.RrhhCboEfecto.Size = new System.Drawing.Size(284, 31);
+            this.RrhhCboEfecto.TabIndex = 11;
+            // 
+            // RrhhCboPeriodo
+            // 
+            this.RrhhCboPeriodo.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.RrhhCboPeriodo.FormattingEnabled = true;
+            this.RrhhCboPeriodo.Location = new System.Drawing.Point(199, 133);
+            this.RrhhCboPeriodo.Name = "RrhhCboPeriodo";
+            this.RrhhCboPeriodo.Size = new System.Drawing.Size(284, 31);
+            this.RrhhCboPeriodo.TabIndex = 8;
+            // 
+            // RrhhLblEfecto
+            // 
+            this.RrhhLblEfecto.AutoSize = true;
+            this.RrhhLblEfecto.Font = new System.Drawing.Font("Tahoma", 9.5F);
+            this.RrhhLblEfecto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhLblEfecto.Location = new System.Drawing.Point(17, 194);
+            this.RrhhLblEfecto.Name = "RrhhLblEfecto";
+            this.RrhhLblEfecto.Size = new System.Drawing.Size(58, 19);
+            this.RrhhLblEfecto.TabIndex = 6;
+            this.RrhhLblEfecto.Text = "Efecto:";
+            // 
+            // RrhhCboTipoCalculo
+            // 
+            this.RrhhCboTipoCalculo.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.RrhhCboTipoCalculo.FormattingEnabled = true;
+            this.RrhhCboTipoCalculo.Location = new System.Drawing.Point(199, 237);
+            this.RrhhCboTipoCalculo.Name = "RrhhCboTipoCalculo";
+            this.RrhhCboTipoCalculo.Size = new System.Drawing.Size(284, 31);
+            this.RrhhCboTipoCalculo.TabIndex = 13;
+            // 
+            // RrhhLblPeriodo
+            // 
+            this.RrhhLblPeriodo.AutoSize = true;
+            this.RrhhLblPeriodo.Font = new System.Drawing.Font("Tahoma", 9.5F);
+            this.RrhhLblPeriodo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhLblPeriodo.Location = new System.Drawing.Point(18, 138);
+            this.RrhhLblPeriodo.Name = "RrhhLblPeriodo";
+            this.RrhhLblPeriodo.Size = new System.Drawing.Size(69, 19);
+            this.RrhhLblPeriodo.TabIndex = 5;
+            this.RrhhLblPeriodo.Text = "Periodo:";
+            // 
+            // RrhhTxtNombreConcepto
+            // 
+            this.RrhhTxtNombreConcepto.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.RrhhTxtNombreConcepto.Location = new System.Drawing.Point(199, 79);
+            this.RrhhTxtNombreConcepto.Name = "RrhhTxtNombreConcepto";
+            this.RrhhTxtNombreConcepto.Size = new System.Drawing.Size(284, 30);
+            this.RrhhTxtNombreConcepto.TabIndex = 3;
+            // 
+            // RrhhLblNombreConcepto
+            // 
+            this.RrhhLblNombreConcepto.AutoSize = true;
+            this.RrhhLblNombreConcepto.Font = new System.Drawing.Font("Tahoma", 9.5F);
+            this.RrhhLblNombreConcepto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhLblNombreConcepto.Location = new System.Drawing.Point(18, 86);
+            this.RrhhLblNombreConcepto.Name = "RrhhLblNombreConcepto";
+            this.RrhhLblNombreConcepto.Size = new System.Drawing.Size(166, 19);
+            this.RrhhLblNombreConcepto.TabIndex = 2;
+            this.RrhhLblNombreConcepto.Text = "Nombre del concepto:";
+            // 
+            // RrhhLblTipoCalculo
+            // 
+            this.RrhhLblTipoCalculo.AutoSize = true;
+            this.RrhhLblTipoCalculo.Font = new System.Drawing.Font("Tahoma", 9.5F);
+            this.RrhhLblTipoCalculo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhLblTipoCalculo.Location = new System.Drawing.Point(17, 242);
+            this.RrhhLblTipoCalculo.Name = "RrhhLblTipoCalculo";
+            this.RrhhLblTipoCalculo.Size = new System.Drawing.Size(122, 19);
+            this.RrhhLblTipoCalculo.TabIndex = 10;
+            this.RrhhLblTipoCalculo.Text = "Tipo de calculo:";
+            // 
+            // RrhhPnlInfoConfiCalculo
+            // 
+            this.RrhhPnlInfoConfiCalculo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.RrhhPnlInfoConfiCalculo.Controls.Add(this.RrhhCboActivo);
+            this.RrhhPnlInfoConfiCalculo.Controls.Add(this.RrhhLblActivo);
+            this.RrhhPnlInfoConfiCalculo.Controls.Add(this.RrhhTxtValor);
+            this.RrhhPnlInfoConfiCalculo.Controls.Add(this.RrhhLblAplicacion);
+            this.RrhhPnlInfoConfiCalculo.Controls.Add(this.RrhhClbAplicacion);
+            this.RrhhPnlInfoConfiCalculo.Controls.Add(this.RrhhLblValor);
+            this.RrhhPnlInfoConfiCalculo.Location = new System.Drawing.Point(518, 295);
+            this.RrhhPnlInfoConfiCalculo.Name = "RrhhPnlInfoConfiCalculo";
+            this.RrhhPnlInfoConfiCalculo.Size = new System.Drawing.Size(500, 283);
+            this.RrhhPnlInfoConfiCalculo.TabIndex = 12;
+            // 
+            // RrhhCboActivo
+            // 
+            this.RrhhCboActivo.AutoSize = true;
+            this.RrhhCboActivo.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.RrhhCboActivo.Location = new System.Drawing.Point(182, 239);
+            this.RrhhCboActivo.Name = "RrhhCboActivo";
+            this.RrhhCboActivo.Size = new System.Drawing.Size(45, 27);
+            this.RrhhCboActivo.TabIndex = 17;
+            this.RrhhCboActivo.Text = "Sí";
+            this.RrhhCboActivo.UseVisualStyleBackColor = true;
+            // 
+            // RrhhLblActivo
+            // 
+            this.RrhhLblActivo.AutoSize = true;
+            this.RrhhLblActivo.Font = new System.Drawing.Font("Tahoma", 9.5F);
+            this.RrhhLblActivo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhLblActivo.Location = new System.Drawing.Point(17, 243);
+            this.RrhhLblActivo.Name = "RrhhLblActivo";
+            this.RrhhLblActivo.Size = new System.Drawing.Size(59, 19);
+            this.RrhhLblActivo.TabIndex = 16;
+            this.RrhhLblActivo.Text = "Activo:";
+            // 
+            // RrhhTxtValor
+            // 
+            this.RrhhTxtValor.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.RrhhTxtValor.Location = new System.Drawing.Point(182, 81);
+            this.RrhhTxtValor.Name = "RrhhTxtValor";
+            this.RrhhTxtValor.Size = new System.Drawing.Size(284, 30);
+            this.RrhhTxtValor.TabIndex = 14;
+            // 
+            // RrhhLblAplicacion
+            // 
+            this.RrhhLblAplicacion.AutoSize = true;
+            this.RrhhLblAplicacion.Font = new System.Drawing.Font("Tahoma", 9.5F);
+            this.RrhhLblAplicacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhLblAplicacion.Location = new System.Drawing.Point(17, 164);
+            this.RrhhLblAplicacion.Name = "RrhhLblAplicacion";
+            this.RrhhLblAplicacion.Size = new System.Drawing.Size(87, 19);
+            this.RrhhLblAplicacion.TabIndex = 12;
+            this.RrhhLblAplicacion.Text = "Aplicación:";
+            // 
+            // RrhhClbAplicacion
+            // 
+            this.RrhhClbAplicacion.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.RrhhClbAplicacion.FormattingEnabled = true;
+            this.RrhhClbAplicacion.Items.AddRange(new object[] {
+            "Todos",
+            "Algunos",
+            "Excepto"});
+            this.RrhhClbAplicacion.Location = new System.Drawing.Point(182, 133);
+            this.RrhhClbAplicacion.Name = "RrhhClbAplicacion";
+            this.RrhhClbAplicacion.Size = new System.Drawing.Size(120, 79);
+            this.RrhhClbAplicacion.TabIndex = 15;
+            this.RrhhClbAplicacion.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.RrhhClbAplicacion_ItemCheck);
+            // 
+            // RrhhLblValor
+            // 
+            this.RrhhLblValor.AutoSize = true;
+            this.RrhhLblValor.Font = new System.Drawing.Font("Tahoma", 9.5F);
+            this.RrhhLblValor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhLblValor.Location = new System.Drawing.Point(17, 90);
+            this.RrhhLblValor.Name = "RrhhLblValor";
+            this.RrhhLblValor.Size = new System.Drawing.Size(52, 19);
+            this.RrhhLblValor.TabIndex = 11;
+            this.RrhhLblValor.Text = "Valor:";
+            // 
+            // RrhhPnlInfoTablaNomina
+            // 
+            this.RrhhPnlInfoTablaNomina.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.RrhhPnlInfoTablaNomina.Controls.Add(this.RrhhLblAsignacionExcepcion);
+            this.RrhhPnlInfoTablaNomina.Controls.Add(this.RrhhLblAccedeCalculoNomina);
+            this.RrhhPnlInfoTablaNomina.Controls.Add(this.RrhhBtnRangos);
+            this.RrhhPnlInfoTablaNomina.Controls.Add(this.RrhhBtnAsignacionConceptos);
+            this.RrhhPnlInfoTablaNomina.Location = new System.Drawing.Point(1023, 295);
+            this.RrhhPnlInfoTablaNomina.Name = "RrhhPnlInfoTablaNomina";
+            this.RrhhPnlInfoTablaNomina.Size = new System.Drawing.Size(500, 283);
+            this.RrhhPnlInfoTablaNomina.TabIndex = 13;
+            // 
+            // RrhhLblAsignacionExcepcion
+            // 
+            this.RrhhLblAsignacionExcepcion.AutoSize = true;
+            this.RrhhLblAsignacionExcepcion.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhLblAsignacionExcepcion.Font = new System.Drawing.Font("Lucida Fax", 13F, System.Drawing.FontStyle.Bold);
+            this.RrhhLblAsignacionExcepcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.RrhhLblAsignacionExcepcion.Location = new System.Drawing.Point(157, 177);
+            this.RrhhLblAsignacionExcepcion.Name = "RrhhLblAsignacionExcepcion";
+            this.RrhhLblAsignacionExcepcion.Size = new System.Drawing.Size(212, 25);
+            this.RrhhLblAsignacionExcepcion.TabIndex = 19;
+            this.RrhhLblAsignacionExcepcion.Text = "Rangos y Valores";
+            // 
+            // RrhhLblAccedeCalculoNomina
+            // 
+            this.RrhhLblAccedeCalculoNomina.AutoSize = true;
+            this.RrhhLblAccedeCalculoNomina.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhLblAccedeCalculoNomina.Font = new System.Drawing.Font("Lucida Fax", 13F, System.Drawing.FontStyle.Bold);
+            this.RrhhLblAccedeCalculoNomina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.RrhhLblAccedeCalculoNomina.Location = new System.Drawing.Point(117, 79);
+            this.RrhhLblAccedeCalculoNomina.Name = "RrhhLblAccedeCalculoNomina";
+            this.RrhhLblAccedeCalculoNomina.Size = new System.Drawing.Size(301, 25);
+            this.RrhhLblAccedeCalculoNomina.TabIndex = 18;
+            this.RrhhLblAccedeCalculoNomina.Text = "Asignación de conceptos";
+            // 
+            // RrhhBtnRangos
+            // 
+            this.RrhhBtnRangos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhBtnRangos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.RrhhBtnRangos.ForeColor = System.Drawing.Color.White;
+            this.RrhhBtnRangos.Location = new System.Drawing.Point(193, 216);
+            this.RrhhBtnRangos.Name = "RrhhBtnRangos";
+            this.RrhhBtnRangos.Size = new System.Drawing.Size(130, 45);
+            this.RrhhBtnRangos.TabIndex = 1;
+            this.RrhhBtnRangos.Text = "Abrir";
+            this.RrhhBtnRangos.UseVisualStyleBackColor = false;
+            this.RrhhBtnRangos.Click += new System.EventHandler(this.RrhhBtnRangos_Click);
+            // 
+            // RrhhBtnAsignacionConceptos
+            // 
+            this.RrhhBtnAsignacionConceptos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhBtnAsignacionConceptos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.RrhhBtnAsignacionConceptos.ForeColor = System.Drawing.Color.White;
+            this.RrhhBtnAsignacionConceptos.Location = new System.Drawing.Point(193, 114);
+            this.RrhhBtnAsignacionConceptos.Name = "RrhhBtnAsignacionConceptos";
+            this.RrhhBtnAsignacionConceptos.Size = new System.Drawing.Size(130, 45);
+            this.RrhhBtnAsignacionConceptos.TabIndex = 0;
+            this.RrhhBtnAsignacionConceptos.Text = "Abrir";
+            this.RrhhBtnAsignacionConceptos.UseVisualStyleBackColor = false;
+            this.RrhhBtnAsignacionConceptos.Click += new System.EventHandler(this.RrhhBtnAsignacionConceptos_Click);
+            // 
+            // RrhhDgvListaConceptos
+            // 
+            this.RrhhDgvListaConceptos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.RrhhDgvListaConceptos.Location = new System.Drawing.Point(12, 708);
+            this.RrhhDgvListaConceptos.Name = "RrhhDgvListaConceptos";
+            this.RrhhDgvListaConceptos.RowHeadersWidth = 51;
+            this.RrhhDgvListaConceptos.RowTemplate.Height = 24;
+            this.RrhhDgvListaConceptos.Size = new System.Drawing.Size(1511, 293);
+            this.RrhhDgvListaConceptos.TabIndex = 15;
+            this.RrhhDgvListaConceptos.SelectionChanged += new System.EventHandler(this.RrhhDgvListaConceptos_SelectionChanged);
+            // 
+            // RrhhLblConsultaGeneral
+            // 
+            this.RrhhLblConsultaGeneral.AutoSize = true;
+            this.RrhhLblConsultaGeneral.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhLblConsultaGeneral.Font = new System.Drawing.Font("Lucida Fax", 13F, System.Drawing.FontStyle.Bold);
+            this.RrhhLblConsultaGeneral.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.RrhhLblConsultaGeneral.Location = new System.Drawing.Point(16, 663);
+            this.RrhhLblConsultaGeneral.Name = "RrhhLblConsultaGeneral";
+            this.RrhhLblConsultaGeneral.Size = new System.Drawing.Size(225, 25);
+            this.RrhhLblConsultaGeneral.TabIndex = 2;
+            this.RrhhLblConsultaGeneral.Text = "Consulta General: ";
+            // 
+            // RrhhTxtBuscar
+            // 
+            this.RrhhTxtBuscar.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.RrhhTxtBuscar.Location = new System.Drawing.Point(239, 667);
+            this.RrhhTxtBuscar.Name = "RrhhTxtBuscar";
+            this.RrhhTxtBuscar.Size = new System.Drawing.Size(397, 30);
+            this.RrhhTxtBuscar.TabIndex = 16;
+            this.RrhhTxtBuscar.TextChanged += new System.EventHandler(this.RrhhTxtBuscar_TextChanged);
+            // 
+            // RrhhDedBtnAyuda
+            // 
+            this.RrhhDedBtnAyuda.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhDedBtnAyuda.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.btn_ayuda;
+            this.RrhhDedBtnAyuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnAyuda.ForeColor = System.Drawing.Color.Chartreuse;
+            this.RrhhDedBtnAyuda.Location = new System.Drawing.Point(970, 188);
+            this.RrhhDedBtnAyuda.Name = "RrhhDedBtnAyuda";
+            this.RrhhDedBtnAyuda.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnAyuda.TabIndex = 19;
+            this.RrhhDedBtnAyuda.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnAyuda.Click += new System.EventHandler(this.RrhhDedBtnAyuda_Click);
+            // 
+            // RrhhBtnConsultar
+            // 
+            this.RrhhBtnConsultar.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_consultar_sin_bordes;
+            this.RrhhBtnConsultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhBtnConsultar.Location = new System.Drawing.Point(642, 651);
+            this.RrhhBtnConsultar.Name = "RrhhBtnConsultar";
+            this.RrhhBtnConsultar.Size = new System.Drawing.Size(52, 49);
+            this.RrhhBtnConsultar.TabIndex = 17;
+            this.RrhhBtnConsultar.UseVisualStyleBackColor = true;
+            // 
+            // RrhhPnlConceptoRegistrados
+            // 
+            this.RrhhPnlConceptoRegistrados.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.Pnl_fondo;
+            this.RrhhPnlConceptoRegistrados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhPnlConceptoRegistrados.Controls.Add(this.RrhhLblConceptoRegistrado);
+            this.RrhhPnlConceptoRegistrados.Controls.Add(this.RrhhPbIconoConsultas);
+            this.RrhhPnlConceptoRegistrados.Location = new System.Drawing.Point(12, 595);
+            this.RrhhPnlConceptoRegistrados.Name = "RrhhPnlConceptoRegistrados";
+            this.RrhhPnlConceptoRegistrados.Size = new System.Drawing.Size(1511, 52);
+            this.RrhhPnlConceptoRegistrados.TabIndex = 14;
+            // 
+            // RrhhLblConceptoRegistrado
+            // 
+            this.RrhhLblConceptoRegistrado.AutoSize = true;
+            this.RrhhLblConceptoRegistrado.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhLblConceptoRegistrado.Font = new System.Drawing.Font("Lucida Fax", 13F, System.Drawing.FontStyle.Bold);
+            this.RrhhLblConceptoRegistrado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.RrhhLblConceptoRegistrado.Location = new System.Drawing.Point(55, 12);
+            this.RrhhLblConceptoRegistrado.Name = "RrhhLblConceptoRegistrado";
+            this.RrhhLblConceptoRegistrado.Size = new System.Drawing.Size(277, 25);
+            this.RrhhLblConceptoRegistrado.TabIndex = 2;
+            this.RrhhLblConceptoRegistrado.Text = "Conceptos Registrados";
+            // 
+            // RrhhPbIconoConsultas
+            // 
+            this.RrhhPbIconoConsultas.Image = global::CapaVista_Nomina.Properties.Resources.btn_empleados_diseno;
+            this.RrhhPbIconoConsultas.Location = new System.Drawing.Point(9, 8);
+            this.RrhhPbIconoConsultas.Name = "RrhhPbIconoConsultas";
+            this.RrhhPbIconoConsultas.Size = new System.Drawing.Size(40, 38);
+            this.RrhhPbIconoConsultas.TabIndex = 15;
+            this.RrhhPbIconoConsultas.TabStop = false;
+            // 
+            // RrhhPnlTablaNominas
+            // 
+            this.RrhhPnlTablaNominas.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.Pnl_fondo;
+            this.RrhhPnlTablaNominas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhPnlTablaNominas.Controls.Add(this.RrhhPbIconoTablas);
+            this.RrhhPnlTablaNominas.Controls.Add(this.RrhhLblTablasNomina);
+            this.RrhhPnlTablaNominas.Location = new System.Drawing.Point(1024, 295);
+            this.RrhhPnlTablaNominas.Name = "RrhhPnlTablaNominas";
+            this.RrhhPnlTablaNominas.Size = new System.Drawing.Size(497, 57);
+            this.RrhhPnlTablaNominas.TabIndex = 0;
+            // 
+            // RrhhPbIconoTablas
+            // 
+            this.RrhhPbIconoTablas.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.btn_permisos_diseno;
+            this.RrhhPbIconoTablas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhPbIconoTablas.Location = new System.Drawing.Point(9, 10);
+            this.RrhhPbIconoTablas.Name = "RrhhPbIconoTablas";
+            this.RrhhPbIconoTablas.Size = new System.Drawing.Size(40, 38);
+            this.RrhhPbIconoTablas.TabIndex = 16;
+            this.RrhhPbIconoTablas.TabStop = false;
+            // 
+            // RrhhLblTablasNomina
+            // 
+            this.RrhhLblTablasNomina.AutoSize = true;
+            this.RrhhLblTablasNomina.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhLblTablasNomina.Font = new System.Drawing.Font("Lucida Fax", 13F, System.Drawing.FontStyle.Bold);
+            this.RrhhLblTablasNomina.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.RrhhLblTablasNomina.Location = new System.Drawing.Point(55, 17);
+            this.RrhhLblTablasNomina.Name = "RrhhLblTablasNomina";
+            this.RrhhLblTablasNomina.Size = new System.Drawing.Size(195, 25);
+            this.RrhhLblTablasNomina.TabIndex = 17;
+            this.RrhhLblTablasNomina.Text = "Tablas nominas";
+            // 
+            // RrhhPnlConfiguracionCalculo
+            // 
+            this.RrhhPnlConfiguracionCalculo.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.Pnl_fondo;
+            this.RrhhPnlConfiguracionCalculo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhPnlConfiguracionCalculo.Controls.Add(this.RrhhPbIconoCalculo);
+            this.RrhhPnlConfiguracionCalculo.Controls.Add(this.RrhhLblConfiguracionCalculo);
+            this.RrhhPnlConfiguracionCalculo.Location = new System.Drawing.Point(518, 295);
+            this.RrhhPnlConfiguracionCalculo.Name = "RrhhPnlConfiguracionCalculo";
+            this.RrhhPnlConfiguracionCalculo.Size = new System.Drawing.Size(500, 57);
+            this.RrhhPnlConfiguracionCalculo.TabIndex = 0;
+            // 
+            // RrhhPbIconoCalculo
+            // 
+            this.RrhhPbIconoCalculo.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.btn_cierres_diseno;
+            this.RrhhPbIconoCalculo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhPbIconoCalculo.Location = new System.Drawing.Point(7, 10);
+            this.RrhhPbIconoCalculo.Name = "RrhhPbIconoCalculo";
+            this.RrhhPbIconoCalculo.Size = new System.Drawing.Size(40, 38);
+            this.RrhhPbIconoCalculo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.RrhhPbIconoCalculo.TabIndex = 16;
+            this.RrhhPbIconoCalculo.TabStop = false;
+            // 
+            // RrhhLblConfiguracionCalculo
+            // 
+            this.RrhhLblConfiguracionCalculo.AutoSize = true;
+            this.RrhhLblConfiguracionCalculo.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhLblConfiguracionCalculo.Font = new System.Drawing.Font("Lucida Fax", 13F, System.Drawing.FontStyle.Bold);
+            this.RrhhLblConfiguracionCalculo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.RrhhLblConfiguracionCalculo.Location = new System.Drawing.Point(55, 17);
+            this.RrhhLblConfiguracionCalculo.Name = "RrhhLblConfiguracionCalculo";
+            this.RrhhLblConfiguracionCalculo.Size = new System.Drawing.Size(312, 25);
+            this.RrhhLblConfiguracionCalculo.TabIndex = 2;
+            this.RrhhLblConfiguracionCalculo.Text = "Configuración del cálculo";
+            // 
+            // RrhhPnlConcepto
+            // 
+            this.RrhhPnlConcepto.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.Pnl_fondo;
+            this.RrhhPnlConcepto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhPnlConcepto.Controls.Add(this.RrhhPbIconInforme);
+            this.RrhhPnlConcepto.Controls.Add(this.RrhhLblInformacionConcepto);
+            this.RrhhPnlConcepto.Location = new System.Drawing.Point(12, 295);
+            this.RrhhPnlConcepto.Name = "RrhhPnlConcepto";
+            this.RrhhPnlConcepto.Size = new System.Drawing.Size(500, 57);
+            this.RrhhPnlConcepto.TabIndex = 4;
+            // 
+            // RrhhPbIconInforme
+            // 
+            this.RrhhPbIconInforme.Image = global::CapaVista_Nomina.Properties.Resources.btn_liquidacion_diseno;
+            this.RrhhPbIconInforme.Location = new System.Drawing.Point(13, 11);
+            this.RrhhPbIconInforme.Name = "RrhhPbIconInforme";
+            this.RrhhPbIconInforme.Size = new System.Drawing.Size(40, 38);
+            this.RrhhPbIconInforme.TabIndex = 1;
+            this.RrhhPbIconInforme.TabStop = false;
+            // 
+            // RrhhLblInformacionConcepto
+            // 
+            this.RrhhLblInformacionConcepto.AutoSize = true;
+            this.RrhhLblInformacionConcepto.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhLblInformacionConcepto.Font = new System.Drawing.Font("Lucida Fax", 13F, System.Drawing.FontStyle.Bold);
+            this.RrhhLblInformacionConcepto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.RrhhLblInformacionConcepto.Location = new System.Drawing.Point(68, 17);
+            this.RrhhLblInformacionConcepto.Name = "RrhhLblInformacionConcepto";
+            this.RrhhLblInformacionConcepto.Size = new System.Drawing.Size(311, 25);
+            this.RrhhLblInformacionConcepto.TabIndex = 0;
+            this.RrhhLblInformacionConcepto.Text = "Información del concepto";
+            // 
+            // RrhhDedBtnSalir
+            // 
+            this.RrhhDedBtnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhDedBtnSalir.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_salir_sin_bordes;
+            this.RrhhDedBtnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnSalir.Location = new System.Drawing.Point(1074, 188);
+            this.RrhhDedBtnSalir.Name = "RrhhDedBtnSalir";
+            this.RrhhDedBtnSalir.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnSalir.TabIndex = 10;
+            this.RrhhDedBtnSalir.UseVisualStyleBackColor = false;
+            // 
+            // RrhhDedBtnRefrescar
+            // 
+            this.RrhhDedBtnRefrescar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhDedBtnRefrescar.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_refrescar_sin_bordes;
+            this.RrhhDedBtnRefrescar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnRefrescar.Location = new System.Drawing.Point(436, 188);
+            this.RrhhDedBtnRefrescar.Name = "RrhhDedBtnRefrescar";
+            this.RrhhDedBtnRefrescar.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnRefrescar.TabIndex = 9;
+            this.RrhhDedBtnRefrescar.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnRefrescar.Click += new System.EventHandler(this.RrhhDedBtnRefrescar_Click);
+            // 
+            // RrhhDedBtnFin
+            // 
+            this.RrhhDedBtnFin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhDedBtnFin.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_fin_sin_bordes_final;
+            this.RrhhDedBtnFin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnFin.Location = new System.Drawing.Point(866, 188);
+            this.RrhhDedBtnFin.Name = "RrhhDedBtnFin";
+            this.RrhhDedBtnFin.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnFin.TabIndex = 8;
+            this.RrhhDedBtnFin.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnFin.Click += new System.EventHandler(this.RrhhDedBtnFin_Click);
+            // 
+            // RrhhDedBtnSiguiente
+            // 
+            this.RrhhDedBtnSiguiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(161)))), ((int)(((byte)(59)))));
+            this.RrhhDedBtnSiguiente.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_siguiente_sin_bordes;
+            this.RrhhDedBtnSiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnSiguiente.Location = new System.Drawing.Point(764, 188);
+            this.RrhhDedBtnSiguiente.Name = "RrhhDedBtnSiguiente";
+            this.RrhhDedBtnSiguiente.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnSiguiente.TabIndex = 7;
+            this.RrhhDedBtnSiguiente.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnSiguiente.Click += new System.EventHandler(this.RrhhDedBtnSiguiente_Click);
+            // 
+            // RrhhDedBtnAnterior
+            // 
+            this.RrhhDedBtnAnterior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(161)))), ((int)(((byte)(59)))));
+            this.RrhhDedBtnAnterior.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_anterior_sin_bordes;
+            this.RrhhDedBtnAnterior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnAnterior.Location = new System.Drawing.Point(659, 188);
+            this.RrhhDedBtnAnterior.Name = "RrhhDedBtnAnterior";
+            this.RrhhDedBtnAnterior.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnAnterior.TabIndex = 6;
+            this.RrhhDedBtnAnterior.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnAnterior.Click += new System.EventHandler(this.RrhhDedBtnAnterior_Click);
+            // 
+            // RrhhDedBtnInicio
+            // 
+            this.RrhhDedBtnInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhDedBtnInicio.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_inicio_sin_bordes;
+            this.RrhhDedBtnInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnInicio.Location = new System.Drawing.Point(549, 188);
+            this.RrhhDedBtnInicio.Name = "RrhhDedBtnInicio";
+            this.RrhhDedBtnInicio.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnInicio.TabIndex = 5;
+            this.RrhhDedBtnInicio.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnInicio.Click += new System.EventHandler(this.RrhhDedBtnInicio_Click);
+            // 
+            // RrhhDedBtnImprimir
+            // 
+            this.RrhhDedBtnImprimir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhDedBtnImprimir.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_imprimir_sin_bordes;
+            this.RrhhDedBtnImprimir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnImprimir.Location = new System.Drawing.Point(325, 188);
+            this.RrhhDedBtnImprimir.Name = "RrhhDedBtnImprimir";
+            this.RrhhDedBtnImprimir.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnImprimir.TabIndex = 4;
+            this.RrhhDedBtnImprimir.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnImprimir.Click += new System.EventHandler(this.RrhhDedBtnImprimir_Click);
+            // 
+            // RrhhDedBtnEliminar
+            // 
+            this.RrhhDedBtnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhDedBtnEliminar.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_eliminar_sin_bordes;
+            this.RrhhDedBtnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnEliminar.Location = new System.Drawing.Point(224, 188);
+            this.RrhhDedBtnEliminar.Name = "RrhhDedBtnEliminar";
+            this.RrhhDedBtnEliminar.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnEliminar.TabIndex = 3;
+            this.RrhhDedBtnEliminar.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnEliminar.Click += new System.EventHandler(this.NominaBtnEliminar_Click);
+            // 
+            // RrhhDedBtnModificar
+            // 
+            this.RrhhDedBtnModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhDedBtnModificar.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_modificar_sin_bordes;
+            this.RrhhDedBtnModificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnModificar.Location = new System.Drawing.Point(120, 188);
+            this.RrhhDedBtnModificar.Name = "RrhhDedBtnModificar";
+            this.RrhhDedBtnModificar.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnModificar.TabIndex = 2;
+            this.RrhhDedBtnModificar.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnModificar.Click += new System.EventHandler(this.RrhhDedBtnModificar_Click);
+            // 
+            // RrhhDedBtnGuardar
+            // 
+            this.RrhhDedBtnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.RrhhDedBtnGuardar.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.boton_guardar_sin_bordes;
+            this.RrhhDedBtnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhDedBtnGuardar.Location = new System.Drawing.Point(21, 188);
+            this.RrhhDedBtnGuardar.Name = "RrhhDedBtnGuardar";
+            this.RrhhDedBtnGuardar.Size = new System.Drawing.Size(87, 80);
+            this.RrhhDedBtnGuardar.TabIndex = 1;
+            this.RrhhDedBtnGuardar.UseVisualStyleBackColor = false;
+            this.RrhhDedBtnGuardar.Click += new System.EventHandler(this.RrhhDedBtnGuardar_Click);
+            // 
+            // RrhhPnlPercepcionDeducciones
+            // 
+            this.RrhhPnlPercepcionDeducciones.BackgroundImage = global::CapaVista_Nomina.Properties.Resources.Pnl_fondo;
+            this.RrhhPnlPercepcionDeducciones.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RrhhPnlPercepcionDeducciones.Controls.Add(this.RrhhPbDonButti);
+            this.RrhhPnlPercepcionDeducciones.Controls.Add(this.RrhhLblSubtituloGestion);
+            this.RrhhPnlPercepcionDeducciones.Controls.Add(this.RrhhLblPercepDeducciones);
+            this.RrhhPnlPercepcionDeducciones.Controls.Add(this.RrhhPbIconoPerDed);
+            this.RrhhPnlPercepcionDeducciones.Location = new System.Drawing.Point(21, 25);
+            this.RrhhPnlPercepcionDeducciones.Name = "RrhhPnlPercepcionDeducciones";
+            this.RrhhPnlPercepcionDeducciones.Size = new System.Drawing.Size(1502, 132);
+            this.RrhhPnlPercepcionDeducciones.TabIndex = 0;
+            // 
+            // RrhhPbDonButti
+            // 
+            this.RrhhPbDonButti.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhPbDonButti.Image = global::CapaVista_Nomina.Properties.Resources.mascota;
+            this.RrhhPbDonButti.Location = new System.Drawing.Point(1279, 7);
+            this.RrhhPbDonButti.Name = "RrhhPbDonButti";
+            this.RrhhPbDonButti.Size = new System.Drawing.Size(111, 114);
+            this.RrhhPbDonButti.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.RrhhPbDonButti.TabIndex = 3;
+            this.RrhhPbDonButti.TabStop = false;
+            // 
+            // RrhhLblSubtituloGestion
+            // 
+            this.RrhhLblSubtituloGestion.AutoSize = true;
+            this.RrhhLblSubtituloGestion.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhLblSubtituloGestion.Font = new System.Drawing.Font("Lucida Fax", 14F, System.Drawing.FontStyle.Bold);
+            this.RrhhLblSubtituloGestion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(138)))), ((int)(((byte)(143)))));
+            this.RrhhLblSubtituloGestion.Location = new System.Drawing.Point(140, 78);
+            this.RrhhLblSubtituloGestion.Name = "RrhhLblSubtituloGestion";
+            this.RrhhLblSubtituloGestion.Size = new System.Drawing.Size(1092, 27);
+            this.RrhhLblSubtituloGestion.TabIndex = 2;
+            this.RrhhLblSubtituloGestion.Text = "Gestiona y administra la información de percepciones y deducciones  de tu empresa" +
+    ".";
+            // 
+            // RrhhLblPercepDeducciones
+            // 
+            this.RrhhLblPercepDeducciones.AutoSize = true;
+            this.RrhhLblPercepDeducciones.Font = new System.Drawing.Font("Lucida Fax", 20F, System.Drawing.FontStyle.Bold);
+            this.RrhhLblPercepDeducciones.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
+            this.RrhhLblPercepDeducciones.Location = new System.Drawing.Point(138, 19);
+            this.RrhhLblPercepDeducciones.Name = "RrhhLblPercepDeducciones";
+            this.RrhhLblPercepDeducciones.Size = new System.Drawing.Size(522, 40);
+            this.RrhhLblPercepDeducciones.TabIndex = 1;
+            this.RrhhLblPercepDeducciones.Text = "Percepciones y Deducciones";
+            // 
+            // RrhhPbIconoPerDed
+            // 
+            this.RrhhPbIconoPerDed.BackColor = System.Drawing.Color.Transparent;
+            this.RrhhPbIconoPerDed.Image = global::CapaVista_Nomina.Properties.Resources.icono_rrhh1;
+            this.RrhhPbIconoPerDed.InitialImage = null;
+            this.RrhhPbIconoPerDed.Location = new System.Drawing.Point(13, 19);
+            this.RrhhPbIconoPerDed.Name = "RrhhPbIconoPerDed";
+            this.RrhhPbIconoPerDed.Size = new System.Drawing.Size(102, 100);
+            this.RrhhPbIconoPerDed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.RrhhPbIconoPerDed.TabIndex = 0;
+            this.RrhhPbIconoPerDed.TabStop = false;
+            // 
+            // FrmPercepcionesDeducciones
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(248)))), ((int)(((byte)(247)))));
+            this.ClientSize = new System.Drawing.Size(1535, 1013);
+            this.Controls.Add(this.RrhhDedBtnAyuda);
+            this.Controls.Add(this.RrhhBtnConsultar);
+            this.Controls.Add(this.RrhhTxtBuscar);
+            this.Controls.Add(this.RrhhLblConsultaGeneral);
+            this.Controls.Add(this.RrhhDgvListaConceptos);
+            this.Controls.Add(this.RrhhPnlConceptoRegistrados);
+            this.Controls.Add(this.RrhhPnlTablaNominas);
+            this.Controls.Add(this.RrhhPnlConfiguracionCalculo);
+            this.Controls.Add(this.RrhhPnlConcepto);
+            this.Controls.Add(this.RrhhPnlInfoTablaNomina);
+            this.Controls.Add(this.RrhhPnlInfoConfiCalculo);
+            this.Controls.Add(this.RrhhPnlDatosInfoConcep);
+            this.Controls.Add(this.RrhhDedBtnSalir);
+            this.Controls.Add(this.RrhhDedBtnRefrescar);
+            this.Controls.Add(this.RrhhDedBtnFin);
+            this.Controls.Add(this.RrhhDedBtnSiguiente);
+            this.Controls.Add(this.RrhhDedBtnAnterior);
+            this.Controls.Add(this.RrhhDedBtnInicio);
+            this.Controls.Add(this.RrhhDedBtnImprimir);
+            this.Controls.Add(this.RrhhDedBtnEliminar);
+            this.Controls.Add(this.RrhhDedBtnModificar);
+            this.Controls.Add(this.RrhhDedBtnGuardar);
+            this.Controls.Add(this.RrhhPnlPercepcionDeducciones);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FrmPercepcionesDeducciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "9502 – PercepcionesDeducciones";
+            this.Load += new System.EventHandler(this.FrmNominas_Load);
+            this.RrhhPnlDatosInfoConcep.ResumeLayout(false);
+            this.RrhhPnlDatosInfoConcep.PerformLayout();
+            this.RrhhPnlInfoConfiCalculo.ResumeLayout(false);
+            this.RrhhPnlInfoConfiCalculo.PerformLayout();
+            this.RrhhPnlInfoTablaNomina.ResumeLayout(false);
+            this.RrhhPnlInfoTablaNomina.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhDgvListaConceptos)).EndInit();
+            this.RrhhPnlConceptoRegistrados.ResumeLayout(false);
+            this.RrhhPnlConceptoRegistrados.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconoConsultas)).EndInit();
+            this.RrhhPnlTablaNominas.ResumeLayout(false);
+            this.RrhhPnlTablaNominas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconoTablas)).EndInit();
+            this.RrhhPnlConfiguracionCalculo.ResumeLayout(false);
+            this.RrhhPnlConfiguracionCalculo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconoCalculo)).EndInit();
+            this.RrhhPnlConcepto.ResumeLayout(false);
+            this.RrhhPnlConcepto.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconInforme)).EndInit();
+            this.RrhhPnlPercepcionDeducciones.ResumeLayout(false);
+            this.RrhhPnlPercepcionDeducciones.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbDonButti)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RrhhPbIconoPerDed)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel RrhhPnlPercepcionDeducciones;
+        private System.Windows.Forms.PictureBox RrhhPbIconoPerDed;
+        private System.Windows.Forms.Label RrhhLblSubtituloGestion;
+        private System.Windows.Forms.Button RrhhDedBtnGuardar;
+        private System.Windows.Forms.Button RrhhDedBtnModificar;
+        private System.Windows.Forms.Button RrhhDedBtnEliminar;
+        private System.Windows.Forms.Button RrhhDedBtnImprimir;
+        private System.Windows.Forms.Button RrhhDedBtnInicio;
+        private System.Windows.Forms.Button RrhhDedBtnAnterior;
+        private System.Windows.Forms.Button RrhhDedBtnSiguiente;
+        private System.Windows.Forms.Button RrhhDedBtnFin;
+        private System.Windows.Forms.Button RrhhDedBtnRefrescar;
+        private System.Windows.Forms.Button RrhhDedBtnSalir;
+        private System.Windows.Forms.Panel RrhhPnlDatosInfoConcep;
+        private System.Windows.Forms.Panel RrhhPnlInfoConfiCalculo;
+        private System.Windows.Forms.Panel RrhhPnlInfoTablaNomina;
+        private System.Windows.Forms.CheckedListBox RrhhClbAplicacion;
+        private System.Windows.Forms.Label RrhhLblInformacionConcepto;
+        private System.Windows.Forms.PictureBox RrhhPbIconInforme;
+        private System.Windows.Forms.Label RrhhLblNombreConcepto;
+        private System.Windows.Forms.TextBox RrhhTxtNombreConcepto;
+        private System.Windows.Forms.Panel RrhhPnlConcepto;
+        private System.Windows.Forms.ComboBox RrhhCboPeriodo;
+        private System.Windows.Forms.Label RrhhLblEfecto;
+        private System.Windows.Forms.Label RrhhLblPeriodo;
+        private System.Windows.Forms.PictureBox RrhhPbDonButti;
+        private System.Windows.Forms.Panel RrhhPnlConfiguracionCalculo;
+        private System.Windows.Forms.Panel RrhhPnlTablaNominas;
+        private System.Windows.Forms.PictureBox RrhhPbIconoCalculo;
+        private System.Windows.Forms.Label RrhhLblConfiguracionCalculo;
+        private System.Windows.Forms.Label RrhhLblTablasNomina;
+        private System.Windows.Forms.PictureBox RrhhPbIconoTablas;
+        private System.Windows.Forms.ComboBox RrhhCboTipoCalculo;
+        private System.Windows.Forms.Label RrhhLblAplicacion;
+        private System.Windows.Forms.Label RrhhLblValor;
+        private System.Windows.Forms.Label RrhhLblTipoCalculo;
+        private System.Windows.Forms.TextBox RrhhTxtValor;
+        private System.Windows.Forms.CheckBox RrhhCboActivo;
+        private System.Windows.Forms.Label RrhhLblActivo;
+        private System.Windows.Forms.Button RrhhBtnAsignacionConceptos;
+        private System.Windows.Forms.Button RrhhBtnRangos;
+        private System.Windows.Forms.Panel RrhhPnlConceptoRegistrados;
+        private System.Windows.Forms.PictureBox RrhhPbIconoConsultas;
+        private System.Windows.Forms.Label RrhhLblConceptoRegistrado;
+        private System.Windows.Forms.DataGridView RrhhDgvListaConceptos;
+        private System.Windows.Forms.Label RrhhLblConsultaGeneral;
+        private System.Windows.Forms.TextBox RrhhTxtBuscar;
+        private System.Windows.Forms.Button RrhhBtnConsultar;
+        private System.Windows.Forms.Label RrhhLblAsignacionExcepcion;
+        private System.Windows.Forms.Label RrhhLblAccedeCalculoNomina;
+        private System.Windows.Forms.ComboBox RrhhCboEfecto;
+        private System.Windows.Forms.Button RrhhDedBtnAyuda;
+        private System.Windows.Forms.Label RrhhLblPercepDeducciones;
+    }
+}
