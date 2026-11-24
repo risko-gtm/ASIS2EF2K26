@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ACD53120-89B3-46D6-8984-7AA464DAEF00}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaVista_Bancos</RootNamespace>
+    <AssemblyName>CapaVista_Bancos</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CapaControlador_Bancos">
+      <HintPath>..\CapaControlador_Bancos\bin\Debug\CapaControlador_Bancos.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaVista_Navegador, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\componentes\navegador\Navegador\CapaVista_Navegador\bin\Debug\CapaVista_Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaVista_Pacientes">
+      <HintPath>..\..\Pacientes_EXAMEN\CapaVista_Pacientes\bin\Debug\CapaVista_Pacientes.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Autorizacion_OrdenesCompraBancos\CapaVista_AutorizacionOrdenesBancos\CapaVista_AutorizacionOrdenesBancos.csproj">
+      <Project>{7BF864D1-57C4-4DA3-9D71-210AE3A556ED}</Project>
+      <Name>CapaVista_AutorizacionOrdenesBancos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Disponibilidad_DiariaBancos\CapaVista_DisponibilidadDiariaBancos\CapaVista_DisponibilidadDiariaBancos.csproj">
+      <Project>{C3D4E5F6-A7B8-4C9D-0E1F-2A3B4C5D6E7F}</Project>
+      <Name>CapaVista_DisponibilidadDiariaBancos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Generacion_PagosBancos\CapaVista_GeneracionPagosBancos\CapaVista_GeneracionPagosBancos.csproj">
+      <Project>{7DCCC297-E977-4B75-89FA-69EAE8623EE3}</Project>
+      <Name>CapaVista_GeneracionPagosBancos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Movimientos_BancariosBancos\CapaVista_MovimientosBancariosBancos\CapaVista_MovimientosBancariosBancos.csproj">
+      <Project>{FC93E776-4CC8-4FC1-BDAA-5D5870134B5F}</Project>
+      <Name>CapaVista_MovimientosBancariosBancos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Tipo_CambioBancos\CapaVista_TipoCambioBancos\CapaVista_TipoCambioBancos.csproj">
+      <Project>{6789ABCD-EF01-2345-6789-ABCDEF012345}</Project>
+      <Name>CapaVista_TipoCambioBancos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Conciliacion_BancariaBancos\CapaVista_ConciliacionBancariaBancos\CapaVista_ConciliacionBancariaBancos.csproj">
+      <Project>{B8469BD4-1790-459B-831C-149F7E0CCFF8}</Project>
+      <Name>CapaVista_ConciliacionBancariaBancos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cierre_BancarioBancos\CapaVista_CierreBancarioBancos\CapaVista_CierreBancarioBancos.csproj">
+      <Project>{58F7F36E-F37D-4E2C-85D6-EC841F0DF249}</Project>
+      <Name>CapaVista_CierreBancarioBancos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formularios\FrmMDIBancos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMDIBancos.Designer.cs">
+      <DependentUpon>FrmMDIBancos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ayudas\" />
+    <Folder Include="FrmReportes\" />
+    <Folder Include="Reportes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formularios\FrmMDIBancos.resx">
+      <DependentUpon>FrmMDIBancos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_navegador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_butti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_ayudas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kpi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_contexto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_kpi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_kpi2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_kpi3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_kpi4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_kpi5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_kpi6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_btn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_btn2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_btn3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_btn4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_btn5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_btn6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_btn7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_btn8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_btn9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_pnlbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_pnl2btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_mante_btn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_mante_btn2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_mante_btn3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_mante_btn4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bancos_mante_btn5.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
