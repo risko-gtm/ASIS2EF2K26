@@ -1,0 +1,57 @@
+commit f2d2a016797da538921098cb6e624ead62472d90
+Merge: f274918 55f0229
+Author: CarlosDCR1 <156693207+CarlosDCR1@users.noreply.github.com>
+Date:   Tue Nov 24 10:44:24 2026 -0600
+
+    Merge pull request #3 from CarlosDCR1/scriptFinal-9959-23-848
+    
+    Subiendo Script
+
+commit 55f02297da2d3d726ba028d7c4935ea82a822520
+Author: CarlosDCR1 <ccalderonr2@miumg.edu.gt>
+Date:   Tue Nov 24 10:43:09 2026 -0600
+
+    Subiendo Script
+
+commit f274918072f52ef4f718e6dc24148adb1492f5ed
+Merge: ed82f75 4bd4688
+Author: CarlosDCR1 <156693207+CarlosDCR1@users.noreply.github.com>
+Date:   Tue Nov 24 10:24:38 2026 -0600
+
+    Merge pull request #2 from CarlosDCR1/RamaMantenimiento-9959-23-848
+    
+    Rama mantenimiento 9959 23 848
+
+commit 4bd468867d11d77db3b6451ed78ad50e7f61773b
+Merge: 9723ab1 ed82f75
+Author: CarlosDCR1 <ccalderonr2@miumg.edu.gt>
+Date:   Tue Nov 24 10:15:16 2026 -0600
+
+    Merge remote-tracking branch 'origin/main' into RamaMantenimiento-9959-23-848
+
+commit ed82f75e77dbc8abe468b9f5d2fb4b39642323d4
+Merge: 0424d63 fe7b9a4
+Author: CarlosDCR1 <156693207+CarlosDCR1@users.noreply.github.com>
+Date:   Tue Nov 24 10:13:49 2026 -0600
+
+    Merge pull request #1 from CarlosDCR1/BaseExamen-9959-23-848
+    
+    Subiendo base para el examen
+
+commit 9723ab1e97296c6e8e0d3a964767b2a77d5197ab
+Author: CarlosDCR1 <ccalderonr2@miumg.edu.gt>
+Date:   Tue Nov 24 10:04:01 2026 -0600
+
+    Subiendo Mantenimiento
+
+commit fe7b9a4581ca3aea05a3e403a4e4acff61dcb1cc
+Author: CarlosDCR1 <ccalderonr2@miumg.edu.gt>
+Date:   Tue Nov 24 08:51:02 2026 -0600
+
+    Subiendo base para el examen
+
+commit 0424d638582ca0343e461d9fe9fb1cb4d5098a0f
+Author: risko-gtm <71298281+risko-gtm@users.noreply.github.com>
+Date:   Mon Nov 23 19:34:21 2026 -0600
+
+    Initial commit
